@@ -7,7 +7,7 @@ function addproducts(data){
     //const imageUrl = data[0].imageUrl
     //const altTxt = data[0].altTxt
     //const name = data[0].name
-    //const description = data[0].description
+   // const description = data[0].description
     data.forEach((Kanap) => {
     
     const {_id, imageUrl, altTxt, name, description} = Kanap
@@ -63,33 +63,3 @@ function makeParagraph(description){
     p.classList.add("productDescription")
     return p
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
